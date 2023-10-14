@@ -1,0 +1,481 @@
+7-Zip 21.07 (x64)
+ACA & MEP 2022 Object Enabler
+ACAD Private
+ARMOURY CRATE Service
+ASUS AURA Display Component
+ASUS AURA Headset Component
+ASUS Aac_NBDT HAL
+ASUS Aura SDK
+ASUS Framework Service
+ASUS Keyboard HAL
+ASUS MB Peripheral Products
+ASUS Mouse HAL
+ASUS Promotion
+ASUS Update Helper
+AURA Service
+AURA lighting effect add-on
+AURA lighting effect add-on x64
+Accessibility Insights For Windows v1.1
+Adobe Audition 2022
+Adobe Creative Cloud
+Adobe Illustrator 2023
+Adobe Photoshop 2023
+Adobe UXP Developer Tool
+Android Studio
+Application Verifier x64 External Package
+Audacity 3.1.3
+AutoCAD 2022
+AutoCAD 2022 - 简体中文 (Simplified Chinese)
+AutoCAD 2022 Language Pack - Simplified Chinese
+Autodesk App Manager
+Autodesk Genuine Service
+Autodesk Material Library 2022
+Autodesk Material Library Base Resolution Image Library 2022
+Autodesk Single Sign On Component
+Autodesk 保存到 Web 和 Mobile
+Autodesk 桌面应用程序
+Autodesk 精选应用
+Bonjour
+COMSOL Multiphysics 5.5
+COMSOL Multiphysics 6.0
+CUMCM版本1.0
+ClickOnce Bootstrapper Package for Microsoft .NET Framework
+ClickOnce Bootstrapper Package for Microsoft .NET Framework 4.8 on Visual Studio 2017
+DiagnosticsHub_CollectionService
+Docker Desktop
+EV录屏
+Entity Framework 6.2.0 Tools  for Visual Studio 2022
+FileZilla 3.60.2
+Git
+Go Programming Language amd64 go1.20
+HI-TECH C Compiler for the PIC10/12/16 MCUs V9.82PL0
+HI-TECH C51-lite V9.60PL0
+IIS 10.0 Express
+IIS Express Application Compatibility Database for x64
+IIS Express Application Compatibility Database for x86
+IntelliTraceProfilerProxy
+Kits Configuration Installer
+LLVM
+MATLAB R2021b
+MSI Development Tools
+Math Kernel Libraries
+Math Kernel Libraries (64-bit)
+Microsoft .NET 6.0 Templates 6.0.202 (x64)
+Microsoft .NET AppHost Pack - 6.0.4 (x64)
+Microsoft .NET AppHost Pack - 6.0.4 (x64_arm)
+Microsoft .NET AppHost Pack - 6.0.4 (x64_arm64)
+Microsoft .NET AppHost Pack - 6.0.4 (x64_x86)
+Microsoft .NET Core Host - 3.1.10 (x64)
+Microsoft .NET Core Host FX Resolver - 3.1.10 (x64)
+Microsoft .NET Core Runtime - 3.1.10 (x64)
+Microsoft .NET CoreRuntime For CoreCon
+Microsoft .NET CoreRuntime SDK
+Microsoft .NET Framework 4.6 Targeting Pack
+Microsoft .NET Framework 4.7.1 Doc Redirected 目标包(简体中文)
+Microsoft .NET Framework 4.7.1 Targeting Pack
+Microsoft .NET Framework 4.7.2 Targeting Pack
+Microsoft .NET Framework 4.7.2 目标包(简体中文)
+Microsoft .NET Framework 4.8 Developer Pack
+Microsoft .NET Framework 4.8 SDK
+Microsoft .NET Framework 4.8 SDK (简体中文)
+Microsoft .NET Framework 4.8 Targeting Pack
+Microsoft .NET Framework 4.8 Targeting Pack (ENU)
+Microsoft .NET Framework 4.8 开发人员工具包(简体中文)
+Microsoft .NET Framework 4.8 目标包(简体中文)
+Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (简体中文)
+Microsoft .NET Host - 5.0.16 (x64)
+Microsoft .NET Host - 6.0.4 (x64)
+Microsoft .NET Host FX Resolver - 5.0.16 (x64)
+Microsoft .NET Host FX Resolver - 6.0.4 (x64)
+Microsoft .NET Host FX Resolver - 6.0.4 (x86)
+Microsoft .NET Native SDK
+Microsoft .NET Runtime - 5.0.16 (x64)
+Microsoft .NET Runtime - 6.0.4 (x64)
+Microsoft .NET Runtime - 6.0.4 (x86)
+Microsoft .NET SDK 6.0.202 (x64) from Visual Studio
+Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)
+Microsoft .NET Targeting Pack - 6.0.4 (x64)
+Microsoft .NET Toolset 6.0.202 (x64)
+Microsoft ASP.NET Core 3.1.10 - Shared Framework
+Microsoft ASP.NET Core 3.1.10 Shared Framework (x64)
+Microsoft ASP.NET Core 6.0.4 Shared Framework (x64)
+Microsoft ASP.NET Core 6.0.4 Shared Framework (x86)
+Microsoft ASP.NET Core 6.0.4 Targeting Pack (x64)
+Microsoft ASP.NET Core Module V2 for IIS Express
+Microsoft ASP.NET Core Module for IIS Express
+Microsoft ASP.NET Diagnostic Pack for Visual Studio
+Microsoft ASP.NET Web Tools Packages 17.0 - CHS
+Microsoft ASP.NET Web Tools Packages 17.0 - ENU
+Microsoft Build of OpenJDK with Hotspot 11.0.12+7 (x64)
+Microsoft Command Line Utilities 15 for SQL Server
+Microsoft Edge
+Microsoft Edge Dev
+Microsoft Edge Update
+Microsoft Edge WebView2 Runtime
+Microsoft Exchange Web Services Managed API 2.1
+Microsoft GameInput
+Microsoft NetStandard SDK
+Microsoft ODBC Driver 11 for SQL Server
+Microsoft ODBC Driver 17 for SQL Server
+Microsoft Office File Validation Add-In
+Microsoft Office LTSC 专业增强版 2021 - zh-cn
+Microsoft OneDrive
+Microsoft SQL Server 2008 Setup Support Files 
+Microsoft SQL Server 2012 Native Client 
+Microsoft SQL Server 2014 (64-bit)
+Microsoft SQL Server 2014 RsFx Driver
+Microsoft SQL Server 2014 Setup (English)
+Microsoft SQL Server 2014 Transact-SQL ScriptDom 
+Microsoft SQL Server 2019 LocalDB 
+Microsoft System CLR Types for SQL Server 2019
+Microsoft TestPlatform SDK Local Feed
+Microsoft UniversalWindowsPlatform SDK
+Microsoft Update Health Tools
+Microsoft VSS Writer for SQL Server 2014
+Microsoft Visual Basic for Applications 7.1 (x64)
+Microsoft Visual Basic for Applications 7.1 (x64) Chinese (Simplified)
+Microsoft Visual Basic for Applications 7.1 (x64) English
+Microsoft Visual C++ 2005 Redistributable
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030
+Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664
+Microsoft Visual C++ 2015 Run-Time
+Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.34.31931
+Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.32.31326
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.34.31931
+Microsoft Visual C++ 2022 X64 Debug Runtime - 14.31.31103
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.34.31931
+Microsoft Visual C++ 2022 X86 Additional Runtime - 14.32.31326
+Microsoft Visual C++ 2022 X86 Debug Runtime - 14.31.31103
+Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.32.31326
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64) Language Pack - CHS
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)语言包 - 简体中文
+Microsoft Visual Studio Installer
+Microsoft Visual Studio Setup Configuration
+Microsoft Visual Studio Setup WMI Provider
+Microsoft Visual Studio Tools for Applications 2015
+Microsoft Visual Studio Tools for Applications 2015 Finalizer
+Microsoft Visual Studio Tools for Applications 2015 x64 Hosting Support
+Microsoft Visual Studio Tools for Applications 2015 x86 Hosting Support
+Microsoft Web Deploy 4.0
+Microsoft Windows Communication Foundation Diagnostic Pack for x86
+Microsoft Windows Desktop Runtime - 5.0.16 (x64)
+Microsoft Windows Desktop Runtime - 6.0.4 (x64)
+Microsoft Windows Desktop Runtime - 6.0.4 (x86)
+Microsoft Windows Desktop Targeting Pack - 6.0.4 (x64)
+Microsoft Workflow Debugger v1.0 for amd64
+Microsoft Workflow Debugger v1.0 for x86
+Microsoft Workflow Diagnostic Pack for x64
+Microsoft.NET.Sdk.Android.Manifest-6.0.200
+Microsoft.NET.Sdk.MacCatalyst.Manifest-6.0.200
+Microsoft.NET.Sdk.Maui.Manifest-6.0.200
+Microsoft.NET.Sdk.iOS.Manifest-6.0.200
+Microsoft.NET.Sdk.macOS.Manifest-6.0.200
+Microsoft.NET.Sdk.tvOS.Manifest-6.0.200
+Microsoft.NET.Workload.Emscripten.Manifest
+Microsoft.NET.Workload.Mono.Toolchain.Manifest
+NI .NET Framework 4.6
+NI ActiveX Container
+NI ActiveX Container (64-bit)
+NI Authentication 2016
+NI Authentication 2016 (64-bit)
+NI Circuit Design Suite 14.1 Core
+NI Circuit Design Suite 14.1 Pro
+NI Circuit Design Suite 14.1 Pro Licenses
+NI Circuit Design Suite 14.1 Shared
+NI Circuit Design Suite Databases
+NI Curl 16.0.0 (64-bit)
+NI Curl 2016
+NI Error Reporting 2016
+NI Error Reporting Interface 16.0
+NI Error Reporting Interface 16.0 for Windows (64-bit)
+NI EulaDepot
+NI Example Finder 16.0
+NI Help Assistant 2.0
+NI Help Assistant 2.0 (64bit)
+NI LabVIEW 2015 Real-Time NBFifo
+NI LabVIEW 2015 Run-Time Engine Web Server
+NI LabVIEW 2016 Deployment Framework
+NI LabVIEW 2016 Real-Time NBFifo
+NI LabVIEW 2016 Run-Time Engine Web Server
+NI LabVIEW Runtime 2015 SP1 Non-English Support.
+NI LabVIEW Runtime 2015 SP1 f5
+NI LabVIEW Runtime 2016 Non-English Support.
+NI LabVIEW Runtime 2016 f1
+NI LabVIEW Runtime Interop 2015
+NI LabVIEW Runtime Interop 2016
+NI LabWindows/CVI 2013 SP2 .NET Library
+NI LabWindows/CVI 2013 SP2 .NET Library (64-bit)
+NI LabWindows/CVI 2013 SP2 Analysis Library
+NI LabWindows/CVI 2013 SP2 Analysis Library (64-bit)
+NI LabWindows/CVI 2013 SP2 Low-Level Driver (Original)
+NI LabWindows/CVI 2013 SP2 Low-Level Driver (Updated)
+NI LabWindows/CVI 2013 SP2 Network Streams Library
+NI LabWindows/CVI 2013 SP2 Network Streams Library (64-bit)
+NI LabWindows/CVI 2013 SP2 Network Variable Library
+NI LabWindows/CVI 2013 SP2 Network Variable Library (64-bit)
+NI LabWindows/CVI 2013 SP2 TDMS Library
+NI LabWindows/CVI 2013 SP2 TDMS Library (64-bit)
+NI LabWindows/CVI Run-Time Engine 2013 SP2 (Updated)
+NI LabWindows/CVI Shared Run-Time Engine 2013 SP2
+NI LabWindows/CVI Shared Run-Time Engine 2013 SP2 (64-bit)
+NI Launcher
+NI License Manager
+NI Logos 5.8
+NI Logos 5.8 (64-bit)
+NI Logos XT Support
+NI Logos64 XT Support
+NI MAX Remote Configuration 64-bit Installer 14.0
+NI MAX Remote Configuration Installer 14.0
+NI MDF Support
+NI Math Kernel Libraries
+NI Measurement Studio ComponentWorks 3D Graph
+NI MetaSuite Installer
+NI Multisim LabVIEW Interoperability Support 14.1
+NI SSL LabVIEW RTE 2015 Support
+NI SSL LabVIEW RTE 2016 Support
+NI SSL Support
+NI SSL Support (64-bit)
+NI Security Update (KB 67L8LCQW)
+NI Security Update (KB 67L8LCQW) (64-bit)
+NI Service Locator 2016
+NI System API Windows 32-bit 14.0.0
+NI System API Windows 64-bit 14.0.0
+NI System Logging Utilities
+NI System State Publisher
+NI System State Publisher (64-bit)
+NI System Web Server 2016
+NI System Web Server Base 2016
+NI System Web Server Base 2016 (64-bit)
+NI TDM Streaming 16.0
+NI TDM Streaming 16.0   (64-bit)
+NI Trace Engine
+NI Trace Engine (64-bit)
+NI USI 15.0.2
+NI USI 15.0.2 64-bit
+NI Uninstaller
+NI Update Service 16.0
+NI Update Service 16.0 (64-bit)
+NI VC2008MSMs x64
+NI VC2008MSMs x86
+NI VC2010SP1MSMs x64
+NI VC2010SP1MSMs x86
+NI Visual C++ 2008 Redistributable Package
+NI Visual C++ 2010 Redistributable Package
+NI Web Application Server 2016
+NI Web Application Server 2016 (64-bit)
+NI mDNS Responder 14.0 for Windows 64-bit
+NI mDNS Responder 14.0.0
+NI-Mesa
+NI-RPC 14.0.0f0
+NI-RPC 14.0.0f0 for 64 Bit Windows
+NI软件
+NVAPI Monitor plugin for NvContainer
+NVIDIA ABHub
+NVIDIA Backend
+NVIDIA Container
+NVIDIA GeForce Experience 3.20.2.34
+NVIDIA Install Application
+NVIDIA LocalSystem Container
+NVIDIA Message Bus for NvContainer
+NVIDIA NetworkService Container
+NVIDIA NodeJS
+NVIDIA PhysX 系统软件 9.20.0221
+NVIDIA SHIELD Streaming
+NVIDIA SHIELD Wireless Controller Driver
+NVIDIA Session Container
+NVIDIA ShadowPlay 3.20.2.34
+NVIDIA Telemetry Client
+NVIDIA TelemetryApi helper for NvContainer
+NVIDIA Update Core
+NVIDIA User Container
+NVIDIA Virtual Audio 4.13.0.0
+NVIDIA Virtual Host Controller
+NVIDIA Watchdog Plugin for NvContainer
+NVIDIA 图形驱动程序 512.78
+Node.js
+Nvidia Share
+Office 16 Click-to-Run Extensibility Component
+Office 16 Click-to-Run Licensing Component
+Office 16 Click-to-Run Localization Component
+Open XML SDK 2.5 for Microsoft Office
+Pulse Secure
+Pulse Secure 9.1
+Pulse Secure Setup Client 64-bit Activex Control
+Pulse Secure Setup Client Activex Control
+Python 3.9.7 Core Interpreter (64-bit symbols)
+Python 3.9.7 Core Interpreter (64-bit)
+Python 3.9.7 Development Libraries (64-bit)
+Python 3.9.7 Documentation (64-bit)
+Python 3.9.7 Executables (64-bit symbols)
+Python 3.9.7 Executables (64-bit)
+Python 3.9.7 Standard Library (64-bit symbols)
+Python 3.9.7 Standard Library (64-bit)
+Python 3.9.7 Tcl/Tk Support (64-bit symbols)
+Python 3.9.7 Tcl/Tk Support (64-bit)
+Python 3.9.7 Test Suite (64-bit symbols)
+Python 3.9.7 Test Suite (64-bit)
+Python 3.9.7 Utility Scripts (64-bit)
+Python 3.9.7 pip Bootstrap (64-bit)
+Python Launcher
+QQ音乐
+ROG Live Service
+ROGFontInstaller
+RefreshRateService
+SDK ARM Additions
+SDK ARM Redistributables
+SOLIDWORKS 2021 Chinese Simplified Resources
+SOLIDWORKS 2021 SP04
+SOLIDWORKS Electrical 2021 SP04
+SOLIDWORKS Flow Simulation 2021 SP04 
+SOLIDWORKS Plastics 2021 SP04
+SOLIDWORKS eDrawings 2021 SP04
+SQL Server 2014 Common Files
+SQL Server 2014 Database Engine Services
+SQL Server 2014 Database Engine Shared
+SQL Server Browser for SQL Server 2014
+Service Pack 3 for SQL Server 2014 (KB4022619) (64-bit)
+SpleeterGUI
+Sql Server Customer Experience Improvement Program
+TeX Live 2022
+Teams Machine-Wide Installer
+UXP WebView Support
+Unity 2022.2.11f1c1
+Unity Hub 3.3.0-c8
+Universal CRT Extension SDK
+Universal CRT Headers Libraries and Sources
+Universal CRT Redistributable
+Universal CRT Tools x64
+Universal CRT Tools x86
+Universal General MIDI DLS Extension SDK
+Update for Windows 10 for x64-based Systems (KB5001716)
+VS Immersive Activate Helper
+VS JIT Debugger
+VS Script Debugging Common
+VS WCF Debugging
+Virtual Universe Pro 32 V3.130 (c)IRAI
+Visual C++ Library CRT ARM64 Appx Package
+Visual C++ Library CRT Appx Package
+Visual C++ Library CRT Appx Resource Package
+Visual C++ Library CRT Desktop Appx Package
+Visual Studio Community 2022
+WPTx64
+WinAppDeploy
+WinRT Intellisense Desktop - Other Languages
+WinRT Intellisense Desktop - en-us
+WinRT Intellisense IoT - Other Languages
+WinRT Intellisense IoT - en-us
+WinRT Intellisense Mobile - en-us
+WinRT Intellisense PPI - Other Languages
+WinRT Intellisense PPI - en-us
+WinRT Intellisense UAP - Other Languages
+WinRT Intellisense UAP - en-us
+Windows App Certification Kit Native Components
+Windows App Certification Kit SupportedApiList x86
+Windows App Certification Kit x64
+Windows Desktop Extension SDK
+Windows Desktop Extension SDK Contracts
+Windows IoT Extension SDK
+Windows IoT Extension SDK Contracts
+Windows Mobile Extension SDK
+Windows Mobile Extension SDK Contracts
+Windows SDK
+Windows SDK ARM Desktop Tools
+Windows SDK AddOn
+Windows SDK Desktop Headers arm
+Windows SDK Desktop Headers arm64
+Windows SDK Desktop Headers x64
+Windows SDK Desktop Headers x86
+Windows SDK Desktop Libs arm
+Windows SDK Desktop Libs arm64
+Windows SDK Desktop Libs x64
+Windows SDK Desktop Libs x86
+Windows SDK Desktop Tools arm64
+Windows SDK Desktop Tools x64
+Windows SDK Desktop Tools x86
+Windows SDK DirectX x64 Remote
+Windows SDK DirectX x86 Remote
+Windows SDK EULA
+Windows SDK Facade Windows WinMD Versioned
+Windows SDK Modern Non-Versioned Developer Tools
+Windows SDK Modern Versioned Developer Tools
+Windows SDK Redistributables
+Windows SDK Signing Tools
+Windows SDK for Windows Store Apps
+Windows SDK for Windows Store Apps Contracts
+Windows SDK for Windows Store Apps DirectX x86 Remote
+Windows SDK for Windows Store Apps Headers
+Windows SDK for Windows Store Apps Libs
+Windows SDK for Windows Store Apps Metadata
+Windows SDK for Windows Store Apps Tools
+Windows SDK for Windows Store Managed Apps Libs
+Windows Software Development Kit - Windows 10.0.19041.685
+Windows Subsystem for Linux Update
+Windows Subsystem for Linux WSLg Preview
+Windows Team Extension SDK
+Windows Team Extension SDK Contracts
+Workflow Manager Client 1.0
+Workflow Manager Tools 1.0 for Visual Studio
+Xamarin Remoted iOS Simulator
+Xshell 6
+Zotero
+icecap_collection_neutral
+icecap_collection_x64
+icecap_collectionresources
+icecap_collectionresourcesx64
+libsndfile version 1.0.28
+sptools_Microsoft.VisualStudio.OfficeDeveloperTools.Msi
+sptools_Microsoft.VisualStudio.Vsto.Msi
+sptools_Microsoft.VisualStudio.Vsto.Msi.Resources
+sptools_Microsoft.VisualStudio.Vsto.Msi.x64
+vcpp_crt.redist.clickonce
+vs_BlendMsi
+vs_CoreEditorFonts
+vs_FileTracker_Singleton
+vs_Graphics_Singletonx64
+vs_Graphics_Singletonx86
+vs_SQLClickOnceBootstrappermsi
+vs_clickoncebootstrappermsi
+vs_clickoncebootstrappermsires
+vs_clickoncesigntoolmsi
+vs_communitymsires
+vs_communitysharedmsi
+vs_communityx64msi
+vs_devenvsharedmsi
+vs_devenx64vmsi
+vs_filehandler_amd64
+vs_filehandler_x86
+vs_minshellinteropsharedmsi
+vs_minshellinteropx64msi
+vs_minshellmsires
+vs_minshellsharedmsi
+vs_minshellx64msi
+vs_tipsmsi
+windows_toolscorepkg
+分区助手 9.6
+向日葵
+微信
+搜狗输入法 12.0.0正式版
+爱不释手 1.7.8.106
+百度网盘
+福昕高级PDF编辑器
+腾讯会议
+腾讯会议Outlook插件
+腾讯文档
