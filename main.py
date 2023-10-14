@@ -13,6 +13,7 @@ from tkinter import ttk, messagebox, Toplevel, Checkbutton
 from pywinauto.application import Application
 import time
 import clipboard
+import re
 from docx import Document
 import pyperclip
 import win32com.client
@@ -455,6 +456,13 @@ def split_string_into_segments(file_name, lines_per_segment=200):
         print(f"segment:\n{segment}")
     return segments
 
+def extract_code_segment(code: str) -> str:
+    pattern = r"(now.*?end\s*=.*?)(?:\n|$)"
+    match = re.search(pattern, code, re.DOTALL)  # 使用re.DOTALL来匹配换行符
+    if match:
+        return match.group(1)
+    return ''
+
 class OutlookReminderWindow(Toplevel):
     def __init__(self, user_input):
         super().__init__()
@@ -692,120 +700,60 @@ class AppGUI(tk.Tk):
                 recommendations = get_gpt4_recommendations(f"用户是一名{user_profile}。输入：{user_input}")
                 RecommendationsWindow(recommendations, user_profile, user_input, self)
         elif selected_option == "search":
+            start = ""
+            end = ""
             print("Searching for existing files...")
             user_date = gpt4_api(IF_TIME, [construct_user(f"输入：{user_input}\n输出：\n")])
             print(user_date)
-            if 'False' in user_date:  # 不涉及对时间的描述
-                key_word = gpt4_api(KEY_WORD_SPLIT, [construct_user(f"输入：{user_input}\n输出：\n")])
-                print(key_word)
-                key_extension = gpt4_api(FILENAME_EXTENSION, [construct_user(f"输入：{user_input}\n输出：\n")])
-                print(key_extension)
-                words = key_word.strip().split("\n")
-                big_dict = {}
-                for word in words:
-                    big_dict.update(search_everything_results(word, key_extension))
-                keys_str = "\n".join(big_dict.keys())
-                print(f"keys_str: {keys_str}")
-                targetFile_output = gpt4_api(f"请找出“{user_input}”可能对应的文件，如果没有输出“无”。注意PPT也可能是.pdf格式", [construct_user(f"输入：{keys_str}\n输出：\n")])
-                # 假设gpt4_api的输出是一个换行分隔的路径列表，我们将其拆分为单独的文件路径
-                print(f"可能的文件：{targetFile_output}")
-                individual_files = targetFile_output.split('\n')
-                targetFiles_notime = []
-                
-                for targetFile in individual_files:
-                    targetFile = targetFile.strip()  # 移除任何多余的空白字符，如换行符
-                    if targetFile != "无":
-                        targetFile = big_dict[targetFile]
-                        if os.path.exists(targetFile):
-                            subprocess.Popen(['start', '', targetFile], shell=True)
-                            targetFiles_notime.append(targetFile)
-                            print(f"{targetFile} exists!")
-                        else:
-                            print(f"{targetFile} does not exist!")
-                    else:
-                        print("无")
-            else:  # 涉及对时间的描述
-                start = ""
-                end = ""
+
+            if 'False' not in user_date: 
                 search_code = gpt4_api(FILE_TIME_START_END, [construct_user(f"输入：{user_date}\n输出：\n")])
+                local_variables = {}
+                search_code = extract_code_segment(search_code)
+                search_code = f"""import datetime\nfrom everythingSearch import search_everything_results\n{search_code}\nresult = (start, end)"""
                 print(search_code)
-                exec(search_code)
-                key_word = gpt4_api(KEY_WORD_SPLIT, [construct_user(f"输入：{user_input}\n输出：\n")])
-                print(key_word)
-                key_extension = gpt4_api(FILENAME_EXTENSION, [construct_user(f"输入：{user_input}\n输出：\n")])
-                print(key_extension)
-                words = key_word.strip().split("\n")
-                big_dict = {}
-                for word in words:
-                    big_dict.update(search_everything_results(word, key_extension, start, end))
-                keys_str = "\n".join(big_dict.keys())
-                print(f"keys_str: {keys_str}")
-                targetFile_output = gpt4_api(f"请找出“{user_input}”可能对应的文件，如果没有输出“无”。注意PPT也可能是.pdf格式", [construct_user(f"输入：{keys_str}\n输出：\n")])
-                # 假设gpt4_api的输出是一个换行分隔的路径列表，我们将其拆分为单独的文件路径
-                print(f"可能的文件：{targetFile_output}")
-                individual_files = targetFile_output.split('\n')
-                targetFiles = []
-                
-                for targetFile in individual_files:
-                    targetFile = targetFile.strip()  # 移除任何多余的空白字符，如换行符
-                    if targetFile != "无":
+                exec(search_code, globals(), local_variables)
+                start, end = local_variables.get('result', (None, None))
+                print(f"search_code: {search_code}") 
+
+            key_word = gpt4_api(KEY_WORD_SPLIT, [construct_user(f"输入：{user_input}\n输出：\n")])
+            print(key_word)
+            key_extension = gpt4_api(FILENAME_EXTENSION, [construct_user(f"输入：{user_input}\n输出：\n")])
+            print(key_extension)
+            words = key_word.strip().split("\n")
+            big_dict = {}
+            for word in words:
+                big_dict.update(search_everything_results(word, key_extension, start, end))
+            if big_dict == {}:
+                print("继续找")
+                big_dict.update(search_everything_results("", key_extension, start, end))
+            keys_str = "\n".join(big_dict.keys())
+            print(f"keys_str: {keys_str}")
+            targetFile_output = gpt4_api(f"请找出“{user_input}”可能对应的文件，最少输出一个文件！！！注意PPT也可能是.pdf格式，不要有序号，每个文件名以换行号分隔", [construct_user(f"输入：{keys_str}\n输出：\n")])
+            # targetFile_output = gpt4_api(f"请找出“{user_input}”可能对应的文件，如果没有输出“无”。注意PPT也可能是.pdf格式", [construct_user(f"输入：{keys_str}\n输出：\n")])
+            # 假设gpt4_api的输出是一个换行分隔的路径列表，我们将其拆分为单独的文件路径
+            print(f"可能的文件：{targetFile_output}")
+            individual_files = targetFile_output.split('\n')
+            targetFiles = []
+            
+            for targetFile in individual_files:
+                targetFile = targetFile.strip()  # 移除任何多余的空白字符，如换行符
+                if targetFile != "无":
+                    try:
                         targetFile = big_dict[targetFile]
-                        if os.path.exists(targetFile):
-                            subprocess.Popen(['start', '', targetFile], shell=True)
-                            targetFiles.append(targetFile)
-                            print(f"{targetFile} exists!")
-                        else:
-                            print(f"{targetFile} does not exist!")
+                    except KeyError:
+                        print(f"{targetFile} 不在 big_dict 中!")
+                        continue
+                    if os.path.exists(targetFile):
+                        subprocess.Popen(['start', '', targetFile], shell=True)
+                        targetFiles.append(targetFile)
+                        print(f"{targetFile} exists!")
                     else:
-                        print("无")
+                        print(f"{targetFile} does not exist!")
+                else:
+                    print("无")
 
-
-
-
-                # with open("searchLastWeek.py", "r", encoding="utf-8") as file:
-                #     original_code = file.read()
-                # with open("searchLastWeek.py", "a", encoding="utf-8") as file:
-                #     file.write("\n"+search_code)
-                #     file.write(OTHER_CODE)
-                # os.system("python searchLastWeek.py")
-                # # 恢复searchLastWeek.py到原始状态
-                # with open("searchLastWeek.py", "w", encoding="utf-8") as file:
-                #     file.write(original_code)
-                # print("searchLastWeek.py 已恢复")
-
-                # segments = split_string_into_segments("fileString.txt")
-                        
-                # for index, segment in enumerate(segments):
-                #     print("可能有的")
-                    
-                #     if index % 6 == 0:
-                #         targetFile_output = gpt4_api("请找出可能对应的文件，如果没有输出“无”\n"+segment, [construct_user(f"输入：{user_input}\n输出：\n")])
-                #     elif index % 6 == 1:
-                #         targetFile_output = gpt4_api_1("请找出可能对应的文件，如果没有输出“无”\n"+segment, [construct_user(f"输入：{user_input}\n输出：\n")])
-                #     elif index % 6 == 2:
-                #         targetFile_output = gpt4_api_2("请找出可能对应的文件，如果没有输出“无”\n"+segment, [construct_user(f"输入：{user_input}\n输出：\n")])
-                #     elif index % 6 == 3:
-                #         targetFile_output = gpt4_api_3("请找出可能对应的文件，如果没有输出“无”\n"+segment, [construct_user(f"输入：{user_input}\n输出：\n")])
-                #     elif index % 6 == 4:
-                #         targetFile_output = gpt4_api_4("请找出可能对应的文件，如果没有输出“无”\n"+segment, [construct_user(f"输入：{user_input}\n输出：\n")])
-                #     else:
-                #         targetFile_output = gpt4_api("请找出可能对应的文件，如果没有输出“无”\n"+segment, [construct_user(f"输入：{user_input}\n输出：\n")])
-                    
-                #     # 假设gpt4_api的输出是一个换行分隔的路径列表，我们将其拆分为单独的文件路径
-                #     individual_files = targetFile_output.split('\n')
-                    
-                #     for targetFile in individual_files:
-                #         targetFile = targetFile.strip()  # 移除任何多余的空白字符，如换行符
-                #         if targetFile != "无":
-                #             if os.path.exists(targetFile):
-                #                 subprocess.Popen(['start', '', targetFile], shell=True)
-                #                 targetFiles.append(targetFile)
-                #                 print(f"{targetFile} exists!")
-                #             else:
-                #                 print(f"{targetFile} does not exist!")
-                #         else:
-                #             print("无")
-                print(user_input + " " + "\n".join(targetFiles))
+            print(user_input + " " + "\n".join(targetFiles))
 
 if __name__ == "__main__":
     app = AppGUI()

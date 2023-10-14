@@ -149,27 +149,33 @@ FILE_TIME_START_END = """请直接写出代码！！！！！！！！
 示例：
 输入：上周
 输出：
-now = datetime.datetime.now()
-start = now - datetime.timedelta(days=now.weekday() + 7, hours=now.hour, minutes=now.minute, seconds=now.second, microseconds=now.microsecond)
-end = start + datetime.timedelta(days=6, hours=23, minutes=59, seconds=59)
+now = datetime.datetime.now().date()  
+start = (now - datetime.timedelta(days=now.weekday() + 7)).strftime('%Y/%m/%d')
+end = start + datetime.timedelta(days=6).strftime('%Y/%m/%d')
 
 输入：本周
 输出：
-now = datetime.datetime.now()
-start = now - datetime.timedelta(days=now.weekday(), hours=now.hour, minutes=now.minute, seconds=now.second, microseconds=now.microsecond)
-end = now
+now = datetime.datetime.now().date()
+start = (now - datetime.timedelta(days=now.weekday())).strftime('%Y/%m/%d')
+end = now.strftime('%Y/%m/%d')
 
 输入：前几天
 输出：
-now = datetime.datetime.now()
-start = now - datetime.timedelta(days=5, hours=now.hour, minutes=now.minute, seconds=now.second, microseconds=now.microsecond)
-end = start + datetime.timedelta(days=4, hours=23, minutes=59, seconds=59)
+now = datetime.datetime.now().date()
+start = (now - datetime.timedelta(days=5)).strftime('%Y/%m/%d')
+end = start + datetime.timedelta(days=4).strftime('%Y/%m/%d')
 
 输入：三天前
 输出：
-now = datetime.datetime.now()
-start = now - datetime.timedelta(days=3, hours=now.hour, minutes=now.minute, seconds=now.second, microseconds=now.microsecond)
-end = start + datetime.timedelta(hours=23, minutes=59, seconds=59)
+now = datetime.datetime.now().date()
+start = now - datetime.timedelta(days=3).strftime('%Y/%m/%d')
+end = start
+
+输入：本学期
+输出：
+now = datetime.datetime.now().date()
+start = (now - datetime.timedelta(days=90)).strftime('%Y/%m/%d')
+end = now.strftime('%Y/%m/%d')
 """
 
 OTHER_CODE = """
@@ -207,6 +213,9 @@ IF_TIME = """判断是否涉及时间。如果涉及，则回答时间；如果�
 
 输入：历年考试真题
 输出：False
+
+输入：本学期课程大纲
+输出：本学期
 """
 
 KEY_WORD_SPLIT = """请把一句话转化成几个重点关键词。示例：

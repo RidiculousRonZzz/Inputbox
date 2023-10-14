@@ -11,7 +11,8 @@ def combine_strings(keyword, filetypes):
 def search_everything_results(search_term, filetypes, start="", end=""):
     search_term = combine_strings(search_term, filetypes)
     if start != "" and end != "":
-        search_term = f"{search_term} dm:{start}..{end}"
+        search_term = f"{search_term} dm:{start}-{end}"
+        print(f"search_term: {search_term}")
     EVERYTHING_REQUEST_FILE_NAME = 0x00000001
     EVERYTHING_REQUEST_PATH = 0x00000002
     EVERYTHING_REQUEST_SIZE = 0x00000010
@@ -71,13 +72,3 @@ def search_everything_results(search_term, filetypes, start="", end=""):
 # results = search_everything_results("*.pptx")
 # print(results["v1顶边4-3.pptx"])
 # search_everything_results("*.docx | *.pptx")
-
-# 查询上周修改的文件：
-# start = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime('%Y%m%d')
-# end = datetime.datetime.now().strftime('%Y%m%d')
-# search_term = f"*.pptx dm:{start}..{end}"
-
-# 查询这个月修改的文件：
-# start = datetime.datetime.now().replace(day=1).strftime('%Y%m%d')
-# end = datetime.datetime.now().strftime('%Y%m%d')
-# search_term = f"*.pptx dm:{start}..{end}"
